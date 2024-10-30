@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicOpenCV", "BasicOpenCV\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageOpenCV", "ImageOpenCV\ImageOpenCV.csproj", "{DDC3F46F-5526-41C1-92FB-3DC06CDA2CDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultOpenCV", "DefaultOpenCV\DefaultOpenCV.csproj", "{DC11E3A5-3C02-4690-9E44-06A0A03007B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefaultOpenCV", "DefaultOpenCV\DefaultOpenCV.csproj", "{DC11E3A5-3C02-4690-9E44-06A0A03007B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
