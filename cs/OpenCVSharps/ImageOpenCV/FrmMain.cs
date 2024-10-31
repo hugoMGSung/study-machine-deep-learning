@@ -45,11 +45,11 @@ namespace ImageOpenCV
 
             Cv2.HConcat(new Mat[] { gray, result }, dst);
             Cv2.ImShow("dst", dst);
-            Cv2.WaitKey(0);
 
             MemoryStream memoryStream = new MemoryStream(mat.ToBytes());
             PicResult.Image = new Bitmap(memoryStream);
 
+            Cv2.WaitKey(0);
             Cv2.DestroyAllWindows();
         }
     }

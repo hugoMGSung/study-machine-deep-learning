@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageOpenCV", "ImageOpenCV\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefaultOpenCV", "DefaultOpenCV\DefaultOpenCV.csproj", "{DC11E3A5-3C02-4690-9E44-06A0A03007B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCvType", "BasicCvType\BasicCvType.csproj", "{C7EA8E40-83FE-44DD-BDB7-899378FD9C5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DC11E3A5-3C02-4690-9E44-06A0A03007B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC11E3A5-3C02-4690-9E44-06A0A03007B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC11E3A5-3C02-4690-9E44-06A0A03007B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7EA8E40-83FE-44DD-BDB7-899378FD9C5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7EA8E40-83FE-44DD-BDB7-899378FD9C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7EA8E40-83FE-44DD-BDB7-899378FD9C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7EA8E40-83FE-44DD-BDB7-899378FD9C5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
