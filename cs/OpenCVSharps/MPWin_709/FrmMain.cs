@@ -1,3 +1,5 @@
+using AxWMPLib;
+
 namespace MPWin_709
 {
     public partial class FrmMain : Form
@@ -11,39 +13,19 @@ namespace MPWin_709
 
         private void FrmMain_Load(object sender, EventArgs e)
         {
+            PlayerMain.uiMode = "mini"; // invisible, none, mini, full, custom
         }
 
-        private void btnOpen_Click(object sender, EventArgs e)
+        private void axWindowsMediaPlayer1_DoubleClickEvent(object sender, _WMPOCXEvents_DoubleClickEvent e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
             if (ofd.ShowDialog() == DialogResult.OK)
             {
                 openFile = ofd.FileName;
             }
-        }
 
-        private void btnPlay_Click(object sender, EventArgs e)
-        {
-            if (openFile == "")
-            {
-                MessageBox.Show("Please Open Video!", "Error");
-            }
-            else
-            {
-                axWindowsMediaPlayer1.URL = openFile;
-                axWindowsMediaPlayer1.Ctlcontrols.play();
-
-            }
-        }
-
-        private void btnPause_Click(object sender, EventArgs e)
-        {
-            axWindowsMediaPlayer1.Ctlcontrols.pause();
-        }
-
-        private void btnStop_Click(object sender, EventArgs e)
-        {
-            axWindowsMediaPlayer1.Ctlcontrols.stop();
+            PlayerMain.URL = openFile;
+            PlayerMain.Ctlcontrols.play();
         }
     }
 }

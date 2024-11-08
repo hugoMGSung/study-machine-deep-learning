@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CVWin_709", "CVWin_709\CVWi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPWin_709", "MPWin_709\MPWin_709.csproj", "{F990994E-84D3-406E-999B-DE4101821BDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXWin_709", "DXWin_709\DXWin_709.csproj", "{0692AEE6-D129-4D98-93DA-4CC775DF9955}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{F990994E-84D3-406E-999B-DE4101821BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F990994E-84D3-406E-999B-DE4101821BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F990994E-84D3-406E-999B-DE4101821BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0692AEE6-D129-4D98-93DA-4CC775DF9955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0692AEE6-D129-4D98-93DA-4CC775DF9955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0692AEE6-D129-4D98-93DA-4CC775DF9955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0692AEE6-D129-4D98-93DA-4CC775DF9955}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
