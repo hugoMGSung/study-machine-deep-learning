@@ -1,6 +1,5 @@
 ﻿
-
-namespace CVWin_0501
+namespace CVWin_0507
 {
     partial class FrmMain
     {
@@ -40,9 +39,8 @@ namespace CVWin_0501
             pictureBox1.Location = new Point(12, 12);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(816, 526);
-            pictureBox1.TabIndex = 0;
+            pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
-            pictureBox1.DoubleClick += pictureBox1_DoubleClick;
             // 
             // FrmMain
             // 
@@ -51,13 +49,11 @@ namespace CVWin_0501
             ClientSize = new Size(840, 550);
             Controls.Add(pictureBox1);
             Name = "FrmMain";
-            Text = "색상변경";
+            Text = "이진화(Threshold)&흐림";
             Load += FrmMain_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
-
-
 
 
 

@@ -36,6 +36,45 @@ OpenCV 클로닝 리포지토리
 
 <img src='https://raw.githubusercontent.com/hugoMGSung/study-opencv/refs/heads/main/images/opencv002.png' width='850'>
 
+#### 색상 배열병합
+- 예 - HUE에서 빨간색부분과 파란색부분만 병합해서 표시할 수 있음(생략)
+
+### 이진화
+
+<img src='https://raw.githubusercontent.com/hugoMGSung/study-opencv/refs/heads/main/images/opencv004.png' width='850'>
+
+#### 적응형 이진화(AdaptiveThreshold)
+
+<img src='https://raw.githubusercontent.com/hugoMGSung/study-opencv/refs/heads/main/images/opencv005.png' width='850'>
+
+### 이미지연산
+
+#### 함수 종류
+- 덧셈함수
+- 뺄셈함수
+- 곱셈함수
+- 나눗셈함수
+- 최대값함수
+- 최소값함수
+- 절대값함수
+- 절대값차이함수
+- 비교함수
+- 선형방정식 시스템의 해 찾기함수
+- AND 연산함수
+- OR 연산함수
+- XOR 연산함수
+- NOT 연산함수
+
+#### 흐림효과
+- 블러링 - 테두리 외삽법
+- 단순흐림효과
+- 박스필터 흐림효과
+- 중간값 흐림효과
+- 가우시안 흐림효과
+- 양방향 필터흐림효과
+
+<img src='https://raw.githubusercontent.com/hugoMGSung/study-opencv/refs/heads/main/images/opencv007.png' width='850'>
+
 ## OpenCv (Python) Part
 
 ### 기본 사용법
@@ -49,4 +88,12 @@ OpenCV 클로닝 리포지토리
 - 집합
 
 ### 이미지변형
+
+<img src='https://raw.githubusercontent.com/hugoMGSung/study-opencv/refs/heads/main/images/opencv003.png' width='850'>
+
+### 이진화
+
+#### 적응형 이진화
+
+<img src='https://raw.githubusercontent.com/hugoMGSung/study-opencv/refs/heads/main/images/opencv006.png' width='850'>
 
