@@ -99,8 +99,11 @@ OpenCV 클로닝 리포지토리
     <img src='https://raw.githubusercontent.com/hugoMGSung/study-opencv/refs/heads/main/images/opencv009.png' width='850'>
 
 ### 윤곽선 검출
+- 내용 생략
 
+    <img src='https://raw.githubusercontent.com/hugoMGSung/study-opencv/refs/heads/main/images/opencv010.png' width='600'>
 
+### 이하 내용 생략
     
 ## OpenCv (Python) Part
 
