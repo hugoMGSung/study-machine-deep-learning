@@ -34,6 +34,8 @@ OpenCV 클로닝 리포지토리
 
 ### 이미지변형
 
+    <img src='https://raw.githubusercontent.com/hugoMGSung/study-opencv/refs/heads/main/images/opencv002.png' width='850'>
+
 ## OpenCv (Python) Part
 
 ### 기본 사용법
