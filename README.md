@@ -75,6 +75,11 @@ OpenCV 클로닝 리포지토리
 
 <img src='https://raw.githubusercontent.com/hugoMGSung/study-opencv/refs/heads/main/images/opencv007.png' width='850'>
 
+### 기타연산 생략
+
+### 이미지 검출
+- **여기부터**
+
 ## OpenCv (Python) Part
 
 ### 기본 사용법
