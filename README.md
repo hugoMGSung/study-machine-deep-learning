@@ -78,8 +78,30 @@ OpenCV 클로닝 리포지토리
 ### 기타연산 생략
 
 ### 이미지 검출
-- **여기부터**
+- 가장자리 검출 - 가장 바깥부분의 둘레, 객체의 테두리
 
+#### 소벨 미분
+- 영상에서의 미분은 인접한 픽셀들의 차이로 기울기(Gradient)의 크기 도출
+- 커널을 사용해 미분하며 커널의 크기를 홀수값을 가짐
+
+    <img src='https://raw.githubusercontent.com/hugoMGSung/study-opencv/refs/heads/main/images/opencv008.png' width='850'>
+
+#### 샤르 필터
+- 소벨 미분의 단점을 보완한 방식. 
+- 3x3 필터를 사용
+
+#### 라플라시안
+- 2차 미분 형태...
+
+#### 캐니 엣지
+- 가장자리를 검출하는 데 목적을 둔 알고리즘
+
+    <img src='https://raw.githubusercontent.com/hugoMGSung/study-opencv/refs/heads/main/images/opencv009.png' width='850'>
+
+### 윤곽선 검출
+
+
+    
 ## OpenCv (Python) Part
 
 ### 기본 사용법
