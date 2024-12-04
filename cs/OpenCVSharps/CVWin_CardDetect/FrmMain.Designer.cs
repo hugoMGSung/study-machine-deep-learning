@@ -49,7 +49,8 @@
             Controls.Add(PicResult);
             Name = "FrmMain";
             Text = "OpenCV Card Detection";
-            Load += this.FrmMain_Load;
+            Load += FrmMain_Load;
+            Shown += FrmMain_Shown;
             ((System.ComponentModel.ISupportInitialize)PicResult).EndInit();
             ResumeLayout(false);
         }

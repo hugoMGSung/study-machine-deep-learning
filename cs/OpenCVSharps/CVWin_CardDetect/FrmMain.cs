@@ -28,12 +28,10 @@ namespace CVWin_CardDetect
             //Debug.WriteLine("DEBUG!!", square);
             Mat dst = PerspectiveTransform(src, square);
 
-            string outputText = ProcOcr(dst, "./tessdata", "eng");
+            outputText = ProcOcr(dst, "./tessdata", "eng");
 
             // 마지막에 윈도우 화면에 뿌리기!!
             this.PicResult.Image = OpenCvSharp.Extensions.BitmapConverter.ToBitmap(dst);
-
-            MessageBox.Show(outputText);
         }
 
         private string ProcOcr(Mat src, string datapath, string language)
@@ -153,6 +151,11 @@ namespace CVWin_CardDetect
             double denominator = Math.Sqrt(u1 * u1 + u2 * u2) * Math.Sqrt(v1 * v1 + v2 * v2);
 
             return numerator / denominator;
+        }
+
+        private void FrmMain_Shown(object sender, EventArgs e)
+        {
+            MessageBox.Show(outputText, "OCR Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
