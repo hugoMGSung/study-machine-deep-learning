@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS8624: 참조 형식의 null 허용 여부 차이로 인해 매개 변수의 출력으로 인수를 사용할 수 없습니다.
+dotnet_diagnostic.CS8624.severity = silent

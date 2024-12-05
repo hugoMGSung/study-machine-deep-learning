@@ -6,4 +6,7 @@ OpenCV 클로닝 리포지토리
 ### C# 명함 검출
 
 - Tesseract data
-    - 
+    - 참조링크
+
+### Python 객체 검출
+
