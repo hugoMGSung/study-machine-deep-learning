@@ -1,4 +1,4 @@
-# OpenCV 스터디
+# OpenCV 스터디(Basic)
 OpenCV 클로닝 리포지토리
 
 ## 사전 결론
