@@ -8,3 +8,6 @@
 ## cvlib 를 사용한 객체 인식
 - https://github.com/hugoMGSung/study-objectdetection/blob/main/object-detection/objdtc_001_cvlib.ipynb
 
+## YoloV3 로 객체 인식
+-  https://github.com/hugoMGSung/study-objectdetection/blob/main/object-detection/objdtc_002_yolov3.ipynb
+
