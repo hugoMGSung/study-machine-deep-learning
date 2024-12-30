@@ -18,7 +18,7 @@ $ yolo predict model=yolov8n.pt source='https://ultralytics.com/images/bus.jpg'
 
 - 결과
 	
-	<img src="https://raw.githubusercontent.com/hugoMGSung/hungout-with-yolo/main/images/yolo001.jpg" width="450">
+	<img src="https://raw.githubusercontent.com/hugoMGSung/study-machine-deep-learning/main/images/yolo001.jpg" width="450">
 
 
 ### 동영상 테스트
@@ -28,4 +28,4 @@ $ yolo predict model=yolov8n.pt source=/home/pi/Videos/sample.mp4 show=True
 
 - 결과
 
-	<img src="https://raw.githubusercontent.com/hugoMGSung/hungout-with-yolo/main/images/yolo002.png" width="700">
+	<img src="https://raw.githubusercontent.com/hugoMGSung/study-machine-deep-learning/main/images/yolo002.png" width="700">
