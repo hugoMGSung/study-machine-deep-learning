@@ -4,11 +4,29 @@ OpenCV 클로닝 리포지토리
 ## 실전예제 
 - https://github.com/wikibook/opencv4-rev2 참조
 
+## OpenCv (Python) Part
 
-### C# 명함 검출
+### 기본 사용법
 
-- Tesseract data
-    - 참조링크
+### 기본 데이터타입
+
+#### 자료형 영역
+- 리스트
+- 튜플
+- 사전
+- 집합
+
+### 이미지변형
+
+<img src='https://raw.githubusercontent.com/hugoMGSung/study-opencv/refs/heads/main/images/opencv003.png' width='850'>
+
+### 이진화
+
+#### 적응형 이진화
+
+<img src='https://raw.githubusercontent.com/hugoMGSung/study-opencv/refs/heads/main/images/opencv006.png' width='850'>
+
+
 
 ### Python 객체 검출
 - ONNX 설치
